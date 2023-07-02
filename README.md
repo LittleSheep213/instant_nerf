@@ -57,3 +57,8 @@
 链接：https://pan.baidu.com/s/1ht-RGNfDS-o7hj69LgUrFg 
 提取码：gy36 
 在目录nerf文件夹下有bottle数据
+
+# 案例演示
+链接：https://pan.baidu.com/s/1zfRJ9DO1NTdZeRnRAkxQrg 
+提取码：tv5h 
+在result_video目录下有两个三维重建时的视频。
