@@ -31,10 +31,11 @@
 `colmap gui `
 
 #### step3: 生成intant-ngp输入需要的transforms.json文件
-`python scripts/colmap2nerf.py --aabb_scale 16 --images E:\NeRF\data\bottle\data --out E:\NeRF\data\bottle\transform.json`
+`python scripts/colmap2nerf.py --colmap_matcher exhaustive --run_colmap --aabb_scale 16 --images D:\instant-ngp-release\data\bottle\data`
+生成的transforms.json文件需要手动添加到D:\instant-ngp-release\data\bottle\data目录下
 
 # step4:  开始重建
-`.\build\testbed.exe --scene E:\NeRF\real_data\data\tussock_tiny`
+`.\build\testbed.exe --scene E:\NeRF\real_data\data\bottle`
 
 
 # 数据集路径
@@ -42,7 +43,7 @@
 
 ├── 📂data/
 
-│	├── 📂toy_truck/
+│	├── 📂bottle/
 
 │	│	├── 📜transforms.json # 这是要生成的文件
 
